@@ -4,10 +4,8 @@ import Image from "next/image";
 import { motion } from "framer-motion";
 import Countdown from "./Countdown";
 
-// ─── TODO: Replace HERO_IMAGE_URL with your personal graduation photo ───
-// Current: Unsplash placeholder (woman in graduation cap & gown)
-const HERO_IMAGE_URL =
-  "https://images.unsplash.com/photo-1627556704302-624286467c65?w=800&q=85";
+// ─── Hero Background Image ───
+const HERO_IMAGE_URL = "/images/img_01.jpg";
 
 export default function Hero() {
   return (

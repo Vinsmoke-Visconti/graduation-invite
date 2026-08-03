@@ -5,38 +5,57 @@ import Image from "next/image";
 import { motion, AnimatePresence } from "framer-motion";
 import { X, ChevronLeft, ChevronRight, ZoomIn } from "lucide-react";
 
-// ─── TODO: Replace these Unsplash URLs with your own personal photos ───
-// Recommended: Upload photos to Supabase Storage or any CDN, then update URLs.
+// ─── Personal Graduation Gallery Photos ───
 const PHOTOS = [
   {
-    src: "https://images.unsplash.com/photo-1541339907198-e08756dedf3f?w=600&q=80",
-    alt: "Lễ tốt nghiệp 1",
-    caption: "Những ngày tháng đẹp nhất",
+    src: "/images/img_02.jpg",
+    alt: "Hoàng Mỹ Kim - Ảnh Kỷ Niệm 1",
+    caption: "Khoảnh khắc đáng nhớ",
   },
   {
-    src: "https://images.unsplash.com/photo-1627556704302-624286467c65?w=600&q=80",
-    alt: "Tốt nghiệp 2",
-    caption: "Ngày cầm tấm bằng trên tay",
+    src: "/images/img_03.jpg",
+    alt: "Hoàng Mỹ Kim - Ảnh Kỷ Niệm 2",
+    caption: "Ngày cầm tấm bằng tốt nghiệp",
   },
   {
-    src: "https://images.unsplash.com/photo-1580582932707-520aed937b7b?w=600&q=80",
-    alt: "Giảng đường kỷ niệm",
+    src: "/images/img_04.jpg",
+    alt: "Hoàng Mỹ Kim - Ảnh Kỷ Niệm 3",
+    caption: "Thanh xuân rực rỡ",
+  },
+  {
+    src: "/images/img_05.jpg",
+    alt: "Hoàng Mỹ Kim - Ảnh Kỷ Niệm 4",
+    caption: "Nụ cười ngày chung đôi",
+  },
+  {
+    src: "/images/img_06.jpg",
+    alt: "Hoàng Mỹ Kim - Ảnh Kỷ Niệm 5",
+    caption: "Kỷ niệm tuổi học trò & đại học",
+  },
+  {
+    src: "/images/img_07.jpg",
+    alt: "Hoàng Mỹ Kim - Ảnh Kỷ Niệm 6",
     caption: "Giảng đường thân thương",
   },
   {
-    src: "https://images.unsplash.com/photo-1499750310107-5fef28a66643?w=600&q=80",
-    alt: "Sinh viên tốt nghiệp",
-    caption: "Hành trình 4 năm rực rỡ",
+    src: "/images/img_08.jpg",
+    alt: "Hoàng Mỹ Kim - Ảnh Kỷ Niệm 7",
+    caption: "Hành trình 4 năm nâng bước",
   },
   {
-    src: "https://images.unsplash.com/photo-1488190211105-8b0e65b80b4e?w=600&q=80",
-    alt: "Lớp học",
-    caption: "Ký ức cùng bạn bè",
+    src: "/images/img_09.jpg",
+    alt: "Hoàng Mỹ Kim - Ảnh Kỷ Niệm 8",
+    caption: "Cột mốc mới mở ra",
   },
   {
-    src: "https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?w=600&q=80",
-    alt: "Khoảnh khắc đặc biệt",
-    caption: "Cột mốc đáng tự hào",
+    src: "/images/img_12.jpg",
+    alt: "Hoàng Mỹ Kim - Ảnh Kỷ Niệm 9",
+    caption: "Những người bạn tuyệt vời",
+  },
+  {
+    src: "/images/img_14.jpg",
+    alt: "Hoàng Mỹ Kim - Ảnh Kỷ Niệm 10",
+    caption: "Tự hào bước tiếp tương lai",
   },
 ];
 
