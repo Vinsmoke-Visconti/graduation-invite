@@ -128,7 +128,10 @@ export default function RSVPForm() {
             </p>
             <button
               className="btn-rose btn-rose-outline mt-2"
-              onClick={() => setForm(INITIAL_FORM) || setSubmitted(false)}
+              onClick={() => {
+                setForm(INITIAL_FORM);
+                setSubmitted(false);
+              }}
             >
               Gửi thêm một xác nhận
             </button>

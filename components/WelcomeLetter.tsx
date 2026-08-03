@@ -26,7 +26,7 @@ export default function WelcomeLetter() {
           initial={{ opacity: 0, y: 40 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true, margin: "-80px" }}
-          transition={{ duration: 0.9, ease: "easeOut" }}
+          transition={{ duration: 0.9, ease: [0, 0, 0.2, 1] }}
         >
           {/* Section label */}
           <div className="flex flex-col items-center gap-2 mb-10">
