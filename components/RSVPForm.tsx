@@ -87,6 +87,22 @@ export default function RSVPForm() {
 
       if (error) throw error;
 
+      // Gửi email thông báo tự động
+      try {
+        await fetch("/api/send-email", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({
+            name: form.name.trim(),
+            attendance: form.attendance,
+            guest_count: form.attendance === "yes" ? form.guest_count : 0,
+            message: form.message.trim() || null,
+          }),
+        });
+      } catch (emailErr) {
+        console.error("Lỗi khi kích hoạt gửi email:", emailErr);
+      }
+
       // Success!
       setSubmitted(true);
       fireConfetti();
