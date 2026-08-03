@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 import Countdown from "./Countdown";
 
 // ─── Hero Background Image ───
-const HERO_IMAGE_URL = "/images/img_01.jpg";
+const HERO_IMAGE_URL = "/images/img_14.jpg";
 
 export default function Hero() {
   return (
