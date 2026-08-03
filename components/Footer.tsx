@@ -2,6 +2,7 @@
 
 import { motion } from "framer-motion";
 import { Heart } from "lucide-react";
+import { Star } from "lucide-react";
 
 export default function Footer() {
   return (
@@ -68,7 +69,7 @@ export default function Footer() {
           style={{ color: "var(--mauve)" }}
         >
           <span>Made by quocvietcndc@gmail.com</span>
-          <Heart size={12} fill="currentColor" />
+          <Star size={12} fill="currentColor" />
           <span>for Kim&apos;s graduation</span>
         </div>
       </motion.div>
