@@ -3,11 +3,11 @@
 import { motion } from "framer-motion";
 
 // ─── TODO: Customize the welcome letter text below ───
-const LETTER_TEXT = `Kính gửi bạn thân mến,
+const LETTER_TEXT = `Thân gửi bạn thân mến,
 
-Thời gian trôi qua thật nhanh — từ những ngày đầu bỡ ngỡ bước vào giảng đường cho đến hôm nay, cột mốc đáng nhớ nhất trong hành trình học vấn của Kim đã đến thật gần.
+Thời gian trôi qua thật nhanh - từ những ngày đầu bỡ ngỡ bước vào giảng đường cho đến hôm nay, cột mốc đáng nhớ nhất trong hành trình học vấn của Kim đã đến thật gần.
 
-Cảm ơn bạn đã luôn là một phần thanh xuân rực rỡ của Kim. Những kỷ niệm cùng nhau, những lúc vui buồn sẻ chia — tất cả đều là những viên gạch quý giá tạo nên hành trình đẹp đẽ này.
+Cảm ơn bạn đã luôn là một phần thanh xuân rực rỡ của Kim. Những kỷ niệm cùng nhau, những lúc vui buồn sẻ chia - tất cả đều là những viên gạch quý giá tạo nên hành trình đẹp đẽ này.
 
 Trân trọng mời bạn đến tham dự và chia sẻ khoảnh khắc cột mốc đáng nhớ này cùng Kim nhé!
 

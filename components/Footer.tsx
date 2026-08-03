@@ -67,7 +67,7 @@ export default function Footer() {
           className="flex items-center gap-1.5 font-body text-xs mt-2"
           style={{ color: "var(--mauve)" }}
         >
-          <span>Made with</span>
+          <span>Made by quocvietcndc@gmail.com</span>
           <Heart size={12} fill="currentColor" />
           <span>for Kim&apos;s graduation</span>
         </div>
