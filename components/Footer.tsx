@@ -34,7 +34,7 @@ export default function Footer() {
             color: "var(--rose-gold-dark)",
           }}
         >
-          Hoàng Thị Mỹ Kim
+          Hoàng Mỹ Kim
         </p>
 
         {/* Divider */}

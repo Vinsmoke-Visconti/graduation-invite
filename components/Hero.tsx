@@ -71,7 +71,7 @@ export default function Hero() {
             lineHeight: 1.1,
           }}
         >
-          Hoàng Thị Mỹ Kim
+          Hoàng Mỹ Kim
         </motion.h2>
 
         {/* Divider */}

@@ -3,13 +3,13 @@ import "./globals.css";
 import { Toaster } from "react-hot-toast";
 
 export const metadata: Metadata = {
-  title: "Thư Mời Tốt Nghiệp – Hoàng Thị Mỹ Kim | ĐH Văn Lang 2026",
+  title: "Thư Mời Tốt Nghiệp – Hoàng Mỹ Kim | ĐH Văn Lang 2026",
   description:
-    "Trân trọng kính mời bạn đến tham dự Lễ Tốt Nghiệp của Hoàng Thị Mỹ Kim tại Trường Đại học Văn Lang, Cơ sở 3 – 10:00 sáng ngày 09 tháng 08 năm 2026.",
+    "Trân trọng kính mời bạn đến tham dự Lễ Tốt Nghiệp của Hoàng Mỹ Kim tại Trường Đại học Văn Lang, Cơ sở 3 – 10:00 sáng ngày 09 tháng 08 năm 2026.",
   openGraph: {
-    title: "Thư Mời Tốt Nghiệp – Hoàng Thị Mỹ Kim",
+    title: "Thư Mời Tốt Nghiệp – Hoàng Mỹ Kim",
     description:
-      "Bạn được mời tham dự Lễ Tốt Nghiệp Đại Học của Hoàng Thị Mỹ Kim.",
+      "Bạn được mời tham dự Lễ Tốt Nghiệp Đại Học của Hoàng Mỹ Kim.",
     type: "website",
     locale: "vi_VN",
   },

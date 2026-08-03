@@ -13,7 +13,7 @@ Trân trọng mời bạn đến tham dự và chia sẻ khoảnh khắc cột m
 
 Với tất cả tình yêu thương,`;
 
-const SIGNATURE = "Hoàng Thị Mỹ Kim 💗";
+const SIGNATURE = "Hoàng Mỹ Kim 💗";
 
 export default function WelcomeLetter() {
   return (
