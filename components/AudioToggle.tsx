@@ -6,7 +6,7 @@ import { Volume2, VolumeX } from "lucide-react";
 // ─── TODO: Replace with your actual audio file path in /public/ ───
 // Example: place your .mp3 file at /public/audio/background.mp3
 //          and update AUDIO_SRC below.
-const AUDIO_SRC = "/audio/background.mp3";
+const AUDIO_SRC = "/audio/lumiere.mp3";
 
 export default function AudioToggle() {
   const audioRef = useRef<HTMLAudioElement | null>(null);
