@@ -66,7 +66,7 @@ export default function WelcomeModal({ audioSrc, recipientName = "Mỹ Kim" }: W
                             className="w-full py-3.5 px-6 bg-gradient-to-r from-pink-400 to-rose-400 hover:from-pink-500 hover:to-rose-500 text-white font-medium rounded-full shadow-lg hover:shadow-pink-200 transition-all transform active:scale-95 flex items-center justify-center gap-2"
                         >
                             <Music size={18} />
-                            <span>Mở Thư Mời & Phát Nhạc</span>
+                            <span>Mở Thư Mời</span>
                         </button>
                     </div>
                 </div>
