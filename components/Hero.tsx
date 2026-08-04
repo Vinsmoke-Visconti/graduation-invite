@@ -17,7 +17,7 @@ export default function Hero() {
       <div className="absolute inset-0 z-0">
         <Image
           src={HERO_IMAGE_URL}
-          alt="Hoàng Thị Mỹ Kim – Lễ Tốt Nghiệp 2026"
+          alt="Hoàng Mỹ Kim – Lễ Tốt Nghiệp 2026"
           fill
           priority
           sizes="100vw"

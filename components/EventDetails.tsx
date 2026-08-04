@@ -12,9 +12,9 @@ const GOOGLE_MAPS_URL =
 // Event: 09/08/2026 10:00-12:00 Vietnam Time (UTC+7 = 03:00-05:00 UTC)
 const GOOGLE_CALENDAR_URL =
   "https://www.google.com/calendar/render?action=TEMPLATE" +
-  "&text=Lễ+Tốt+Nghiệp+-+Hoàng+Thị+Mỹ+Kim" +
+  "&text=Lễ+Tốt+Nghiệp+-+Hoàng+Mỹ+Kim" +
   "&dates=20260809T030000Z/20260809T050000Z" +
-  "&details=Lễ+Tốt+Nghiệp+Đại+Học+của+Hoàng+Thị+Mỹ+Kim+tại+ĐH+Văn+Lang+CS3" +
+  "&details=Lễ+Tốt+Nghiệp+Đại+Học+của+Hoàng+Mỹ+Kim+tại+ĐH+Văn+Lang+CS3" +
   "&location=69/68+Đặng+Thùy+Trâm,+P.13,+Q.Bình+Thạnh,+TP.HCM" +
   "&sf=true&output=xml";
 

@@ -67,7 +67,7 @@ export default function AudioToggle() {
                 Graduation Invitation
               </p>
               <h2 className="text-2xl font-serif text-gray-800">
-                Lễ Tốt Nghiệp Hoàng Thị Mỹ Kim
+                Lễ Tốt Nghiệp Hoàng Mỹ Kim
               </h2>
               <p className="text-xs text-gray-500 leading-relaxed">
                 Trân trọng kính mời bạn đến tham dự và chia sẻ khoảnh khắc đặc biệt này!
