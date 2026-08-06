@@ -32,7 +32,7 @@ const EVENT_DETAILS = [
     label: "Địa Điểm",
     title: "ĐH Văn Lang - CS3",
     subtitle: "69/68 Đặng Thùy Trâm, P.13",
-    detail: "Hội trường trịnh công sơn",
+    detail: "Hội trường Trịnh Công Sơn",
     color: "var(--mauve)",
   },
   {
